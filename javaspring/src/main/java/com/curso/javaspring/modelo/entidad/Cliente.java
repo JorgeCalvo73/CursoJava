@@ -17,11 +17,13 @@ public class Cliente {
 	private String direccion;
 	private String telefono;
 	private String correo;
-	
 	private Boolean activo;
 	private String notas;
 	
-	
+	public Cliente() {
+		super();
+	}
+
 	public Cliente(Integer id, String nombre, String direccion, String telefono, String correo, Boolean activo,
 			String notas) {
 		super();
